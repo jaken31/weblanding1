@@ -13,6 +13,10 @@ module.exports = {
       'platinum': '#cdd7d6',
       'bittersweet': '#f87060',
       'oxfordblue': '#102542',
+      'richblack': '#0d1f2d',
+      'paynegray': '#546a7b',
+      'timberwolf': '#e3dbdb',
+      'prussianblue': '#002642',
     },
     screens: {
       sm: '480px',
@@ -29,7 +33,7 @@ module.exports = {
         '4xl': '2rem',
       },
       fontFamily: {
-        display: 'Outfit, ui-serif'
+        display: 'Outfit, ui-serif' 
       },
     },
   },
