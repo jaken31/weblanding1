@@ -1,6 +1,7 @@
 
 import "@styles/globals.css";
-import Nav from '@components/Nav-bar/Nav'; 
+import Projects from '@components/Project/Projects'
+ 
 
 
 
@@ -21,10 +22,11 @@ export default function RootLayout({ children }) {
         <div className="main">      
         </div>
         <main className="app">
-            <Nav />
+            
            {children}
+           <Projects />
         </main>
-        </body>
+      </body>
     </html>
   );
 }
